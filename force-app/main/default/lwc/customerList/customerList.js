@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import { LightningElement, api, track, wire } from 'lwc';
 import { refreshApex } from '@salesforce/apex';
 import getCustomerList from '@salesforce/apex/reservationManagerController.getCustomerList';
@@ -54,6 +55,7 @@ export default class CustomerList extends LightningElement
 
     publishSelect(event) 
     {
+        // eslint-disable-next-line no-debugger
         debugger;
         console.log('here!  2');
 

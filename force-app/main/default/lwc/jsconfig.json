@@ -8,6 +8,15 @@
             ],
             "c/customerList": [
                 "customerList/customerList.js"
+            ],
+            "c/pubsub": [
+                "pubsub/pubsub.js"
+            ],
+            "c/inlineMessage": [
+                "inlineMessage/inlineMessage.js"
+            ],
+            "c/reservationHelper": [
+                "reservationHelper/reservationHelper.js"
             ]
         }
     },
